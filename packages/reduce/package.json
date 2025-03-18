@@ -1,0 +1,30 @@
+{
+  "name": "@orche/reduce",
+  "version": "0.0.0",
+  "description": "Reduce async iterables to accumulate to initial value",
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "async",
+    "reduce",
+    "array",
+    "functional",
+    "utility"
+  ],
+  "author": "Hoyeung Wong",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gadge/orche.git"
+  },
+  "homepage": "https://github.com/gadge/orche#readme",
+  "license": "BSD-3-Clause"
+}

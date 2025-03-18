@@ -1,0 +1,30 @@
+{
+  "name": "@orche/collect",
+  "version": "0.0.0",
+  "description": "Collect async iterables into array",
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "async",
+    "collect",
+    "collection",
+    "functional",
+    "utility"
+  ],
+  "author": "Hoyeung Wong",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gadge/orche.git"
+  },
+  "homepage": "https://github.com/gadge/orche#readme",
+  "license": "BSD-3-Clause"
+}

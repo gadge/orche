@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-test-coverage --test packages/*/test/*.test.js",
+    "upint": "pnpm up -i -r --latest",
+    "patch": "pnpm -r exec pnpm version patch",
+    "check": "pnpm outdated",
+    "chadd": "pnpm changeset add",
+    "ver": "pnpm changeset version",
+    "pub": "pnpm changeset publish",
+    "build": "rollup -c rollup.config.js",
+    "watch": "rollup -c rollup.config.js -w"
+  },
+  "devDependencies": {
+    "@acq/path": "^0.4.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "rollup": "^4.25.0",
+    "rollup-plugin-fileinfo": "^0.3.0"
+  }
+}
